@@ -71,3 +71,10 @@ footer a {
   margin-top: 40px;
   font-size: 0.7em;
 }
+.invalidOption::placeholder {
+  content: 'invalid input';
+  color: red;
+}
+/* .invalidOption {
+  background-color: red;
+} */
